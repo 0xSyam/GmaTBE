@@ -7,7 +7,7 @@ const app = express();
 const server = http.createServer(app);
 const io = socketIo(server);
 
-const PORT = 8080;
+const PORT = 8000;
 
 // Use cors middleware
 app.use(cors());
